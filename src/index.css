@@ -467,3 +467,446 @@ padding: 0 10px;
 }
 
 .text-dark{color: #2b343f!important}
+
+.mx-20 {
+    margin: 0 20px;
+}
+.my-20 {
+    margin: 20px 0;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+
+
+.welcome-top-logo img {
+    margin: 25px;
+}
+.main-container {
+    height: 100vh;
+}
+
+.welcome-illustration-wrapper.select-industry {
+    background-color: #E7F4FC !important;
+    background-image: url(https://d2elkgkdx2cp5d.cloudfront.net/assets/wizard/select-industry-0622c4edb012e13a19e90941ea537427d1bf747f19dfb4407baadf39ab15714a.svg);
+    background-position: 50% 60%;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    height: 100%;
+}
+.industry-section {
+    margin-top: 50px;
+}
+
+.industry-section .child {
+    border: 2px solid #12b1ff;
+    padding: 10px;
+    margin: 7px;
+    display: inline-block;
+}
+.industry-section .child:hover {
+    background-color: #12b1ff;
+    color: #fff;
+    text-decoration: none;
+}
+
+.create-organization-form {
+    margin: 0;
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(63%);
+}
+
+.organization-select-features .title {
+    color: #2AA7FF
+}
+
+.create-organization-form .action-btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.features-section .feature {
+    height: 173px;
+    width: 29%;
+    max-width: 175px;
+    margin: 11px 2%;
+    border: 1px solid #12b1ff;
+    padding: 10px 5px;
+    display: inline-table;
+    color: rgb(39, 38, 38);
+    text-align: center;
+}
+
+.features-section .feature.half {
+    height: 125px;
+    width: 100%;
+    max-width: 480px;
+}
+
+.features-section .feature:hover {
+    text-decoration: none;
+}
+
+.features-section .feature.active i, .features-section .feature.active .title  {
+    color: #12b1ff;
+}
+
+.features-section .feature .title {
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.projects-section .add-project {
+    position: relative;
+    left: calc(100% + 10px);
+    top: -25px;
+}
+
+.projects-section input {
+    border-left: 5px solid;
+}
+
+.plus-border i {
+    border: 1px solid #12b1ff;
+    background-color: #12b1ff;
+    color: #fff;
+    border-radius: 51%;
+    font-size: 14px;
+    padding: 10px;
+    margin-top: -10px;
+}
+.plan-card {
+    padding: 30px;
+}
+
+.plan-card p {
+    margin: 0;
+}
+.rebranded-pricing .plan-time-span-group {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0 90px;
+}
+
+.rebranded-pricing .plan-time-span-group .two-months-free, .rebranded-pricing .plan-time-span-group .plan-time-span-toggle {
+    top: auto;
+    right: auto;
+    left: auto;
+    bottom: auto;
+    margin: 0 5px;
+}
+.rebranded-pricing .two-months-free {
+    background: url(https://d2elkgkdx2cp5d.cloudfront.net/assets/global/blue_arrow-30b8ed7563f7e6fd206d627399c0af1440be0ab0f7c752accd18d38256f10906.svg) no-repeat;
+    color: #fff;
+    height: 2.714em;
+    padding: 0 5px;
+    position: relative;
+    text-transform: uppercase;
+    top: 5em;
+    z-index: 1;
+    width: 167px;
+    right: 175px;
+    margin: 0 auto;
+    opacity: 0.2;
+}
+
+.rebranded-pricing .two-months-free .two-months-free-inner {
+    align-items: center;
+    display: flex;
+    font-size: 14px;
+    font-weight: bold;
+    height: 100%;
+    justify-content: center;
+    line-height: 14px;
+}
+
+.rebranded-pricing .plan-time-span-group .two-months-free, .rebranded-pricing .plan-time-span-group .plan-time-span-toggle {
+    top: auto;
+    right: auto;
+    left: auto;
+    bottom: auto;
+    margin: 0 5px;
+}
+
+.rebranded-pricing .plan-time-span-toggle {
+    position: relative;
+    top: 33px;
+    z-index: 1;
+}
+
+.rebranded-pricing .plan-time-span-toggle .btn-group {
+    background-color: #1CD5A8;
+    border-radius: 20px;
+    height: 36px;
+}
+.inline-block {
+    display: inline-block !important;
+    float: none !important;
+}
+.btn-group, .btn-group-vertical {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+
+.rebranded-pricing .plan-time-span-toggle .btn-group .btn-default.btn-default.active {
+    background-color: #fff !important;
+    border-radius: 20px;
+    border: 4px solid #05D6A8 !important;
+    box-shadow: none;
+    color: #05D6A8 !important;
+    width: 85px;
+    padding: 0;
+}
+.rebranded-pricing .plan-time-span-toggle .btn-group .btn-default:active, .rebranded-pricing .plan-time-span-toggle .btn-group .btn-default:focus, .rebranded-pricing .plan-time-span-toggle .btn-group .btn-default.active, .rebranded-pricing .plan-time-span-toggle .btn-group .btn-default.focus {
+    box-shadow: none;
+    outline: 0;
+}
+.btn-group>.btn:first-child:not(:last-child):not(.dropdown-toggle), .app-tabs-switch>.nav.nav-tabs .btn-group>.nav-item:first-child:not(:last-child):not(.dropdown-toggle) {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.rebranded-pricing .plan-time-span-toggle .btn-group .btn-default {
+    align-items: center;
+    background: transparent !important;
+    border: 0 !important;
+    color: #fff !important;
+    display: flex;
+    font-size: 16px;
+    font-weight: 500;
+    height: 36px;
+    justify-content: center;
+    line-height: 21px;
+    min-width: auto;
+    text-align: center;
+    width: 70px;
+}
+.btn-group>.btn:first-child, .app-tabs-switch>.nav.nav-tabs .btn-group>.nav-item:first-child {
+    margin-left: 0;
+}
+.btn-group>.btn:hover, .app-tabs-switch>.nav.nav-tabs .btn-group>.nav-item:hover, .btn-group>.btn:focus, .app-tabs-switch>.nav.nav-tabs .btn-group>.nav-item:focus, .btn-group>.btn:active, .app-tabs-switch>.nav.nav-tabs .btn-group>.nav-item:active, .btn-group>.btn.active, .app-tabs-switch>.nav.nav-tabs .btn-group>.active.nav-item, .btn-group-vertical>.btn:hover, .app-tabs-switch>.nav.nav-tabs .btn-group-vertical>.nav-item:hover, .btn-group-vertical>.btn:focus, .app-tabs-switch>.nav.nav-tabs .btn-group-vertical>.nav-item:focus, .btn-group-vertical>.btn:active, .app-tabs-switch>.nav.nav-tabs .btn-group-vertical>.nav-item:active, .btn-group-vertical>.btn.active, .app-tabs-switch>.nav.nav-tabs .btn-group-vertical>.active.nav-item {
+    z-index: 2;
+}
+.btn-default.active, .btn-default.active:active, .btn-default.active:focus {
+    background-color: #2aa7ff !important;
+    border-color: #2aa7ff !important;
+    color: #fff !important;
+    outline: none !important;
+}
+.btn-group>.btn, .app-tabs-switch>.nav.nav-tabs .btn-group>.nav-item, .btn-group-vertical>.btn, .app-tabs-switch>.nav.nav-tabs .btn-group-vertical>.nav-item {
+    position: relative;
+    float: left;
+}
+.btn-default:active, .btn-default.active, .open>.btn-default.dropdown-toggle {
+    color: #3e4956;
+    background-color: #e6e6e6;
+    background-image: none;
+    border-color: #becad8;
+}
+.btn:active, .app-tabs-switch>.nav.nav-tabs .nav-item:active, .btn.active, .app-tabs-switch>.nav.nav-tabs .active.nav-item {
+    background-image: none;
+    outline: 0;
+    -webkit-box-shadow: inset 0 3px 5px rgba(0,0,0,0.125);
+    box-shadow: inset 0 3px 5px rgba(0,0,0,0.125);
+}
+.btn, .app-tabs-switch>.nav.nav-tabs .nav-item {
+    min-width: 84px;
+}
+.btn-default {
+    color: #3e4956;
+    background-color: #fff;
+    border-color: #e4e9ef;
+}
+.btn, .app-tabs-switch>.nav.nav-tabs .nav-item {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 500;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    padding: 9px 20px;
+    font-size: 14px;
+    line-height: 1.45;
+    border-radius: 6px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+label {
+    font-weight: 500;
+}
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+[data-toggle="buttons"]>.btn input[type="radio"], .app-tabs-switch>.nav.nav-tabs [data-toggle="buttons"]>.nav-item input[type="radio"], [data-toggle="buttons"]>.btn input[type="checkbox"], .app-tabs-switch>.nav.nav-tabs [data-toggle="buttons"]>.nav-item input[type="checkbox"], [data-toggle="buttons"]>.btn-group>.btn input[type="radio"], .app-tabs-switch>.nav.nav-tabs [data-toggle="buttons"]>.btn-group>.nav-item input[type="radio"], [data-toggle="buttons"]>.btn-group>.btn input[type="checkbox"], .app-tabs-switch>.nav.nav-tabs [data-toggle="buttons"]>.btn-group>.nav-item input[type="checkbox"] {
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+    pointer-events: none;
+}
+input[type="radio"], input[type="checkbox"] {
+    margin: 4px 0 0;
+    margin-top: 1px \9;
+    line-height: normal;
+}
+input[type="checkbox"], input[type="radio"] {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+
+[data-toggle="buttons"]>.btn input[type="radio"], .app-tabs-switch>.nav.nav-tabs [data-toggle="buttons"]>.nav-item input[type="radio"], [data-toggle="buttons"]>.btn input[type="checkbox"], .app-tabs-switch>.nav.nav-tabs [data-toggle="buttons"]>.nav-item input[type="checkbox"], [data-toggle="buttons"]>.btn-group>.btn input[type="radio"], .app-tabs-switch>.nav.nav-tabs [data-toggle="buttons"]>.btn-group>.nav-item input[type="radio"], [data-toggle="buttons"]>.btn-group>.btn input[type="checkbox"], .app-tabs-switch>.nav.nav-tabs [data-toggle="buttons"]>.btn-group>.nav-item input[type="checkbox"] {
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+    pointer-events: none;
+}
+input[type="radio"], input[type="checkbox"] {
+    margin: 4px 0 0;
+    margin-top: 1px \9;
+    line-height: normal;
+}
+
+.rebranded-pricing .plan-time-span-toggle .btn-group .btn-default:last-child:not(.active) {
+    right: 0.15em;
+    width: 70px;
+    text-align: center;
+    padding: 0;
+}
+.rebranded-pricing .plan-time-span-toggle .btn-group .btn-default {
+    align-items: center;
+    background: transparent !important;
+    border: 0 !important;
+    color: #fff !important;
+    display: flex;
+    font-size: 16px;
+    font-weight: 500;
+    height: 36px;
+    justify-content: center;
+    line-height: 21px;
+    min-width: auto;
+    text-align: center;
+    width: 70px;
+}
+
+.plan-card .active {
+    border: 1px solid;
+    padding: 7px 11px;
+    font-weight: 500;
+}
+
+.plan-card .not-active {
+    border: 1px solid;
+    padding: 7px 11px;
+    font-weight: 500;
+    text-decoration: line-through;
+    color: grey;
+}
+
+.plan-card {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-direction: normal;
+    -webkit-box-orient: vertical;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    color: #3c495a;
+    font-family: inherit;
+    padding: 25px 2.7rem 0;
+}
+
+.plan-card {
+    min-height: 290px;
+    border-bottom: 2px solid #DBE9F5;
+}
+
+
+.plan-card.highlighted {
+    border: 4px solid #05D6A8;
+    box-shadow: 0 25px 45px 5px rgba(0,0,0,0.12);
+    margin-top: -4px;
+    padding: 10px;
+}
+
+
+.plan-card.highlighted .active {
+    border: 0;
+    border-bottom: 1px solid;
+}
+
+.plan-card .price-name {
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 48px;
+}
+
+.plan-card .price {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    -webkit-align-items: start;
+    -moz-align-items: start;
+    align-items: start;
+    font-size: 48px;
+    line-height: 64px;
+    white-space: nowrap;
+}
+
+.plan-card .period, .plan-card .basic-price-cents, .plan-card .premium-price-cents, .plan-card .enterprise-price-cents, .plan-card .pay-frequency {
+    font-size: 18px;
+    line-height: 24px;
+    position: relative;
+    top: 9px;
+}
+
+.plan-card .period {
+    font-size: 18px;
+    padding-left: 4px;
+}
+.plan-card .period, .plan-card .basic-price-cents, .plan-card .premium-price-cents, .plan-card .enterprise-price-cents, .plan-card .pay-frequency {
+    font-size: 18px;
+    line-height: 24px;
+    position: relative;
+    top: 9px;
+}
+.plan-card .period {
+    margin-left: 5px;
+}
+
+.plan-card .choose-plan-btn .btn {
+    width: 100%;
+    margin: 10px 0;
+    border: 2px solid #00aaff;
+    font-weight: 600;
+}
+
+.plan-card.highlighted .choose-plan-btn .btn {
+    border: 2px solid #1CD5A8;
+    background-color: #1CD5A8;
+    color: #fff
+}
