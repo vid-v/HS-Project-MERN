@@ -64,7 +64,7 @@ class SelectFeatures extends Component {
                                             )
                                         })}
                                         <div className="action-btn">
-                                            <button onClick={(e) => { this.setState({ step: 1 }) }} className="btn btn-success pull-right">Continue</button>
+                                            <button onClick={(e) => { this.setState({ step: 2 }) }} className="btn btn-success pull-right">Continue</button>
                                         </div>
                                     </div>
                                 </div>
@@ -75,10 +75,10 @@ class SelectFeatures extends Component {
                                         <div className="projects-section">
                                             {this.state.projects.map((project, index) => {
                                                 return (
-                                                    <div className="row form-group">
+                                                    <div className="row form-group" key={index}>
                                                         <input onChange={(e) => { this.handleProjectChange(e, index) }} value={project} className="form-control" style={{ borderLeftColor: this.state.colorCode[index] }}></input>
                                                         {index > 0 ? (
-                                                            <span href="javascript:void(0);" onClick={(e) => { this.removeProject(index) }} className="add-project">
+                                                            <span onClick={(e) => { this.removeProject(index) }} className="add-project">
                                                                 <i className="fa fa-times"></i>
                                                             </span>
                                                         ) : null}
@@ -89,7 +89,7 @@ class SelectFeatures extends Component {
                                             <a href="javascript:void(0);" onClick={(e) => { this.addProject() }} className="plus-border"> <i className="fa fa-plus fa-2x"></i></a>
                                             <p>Great start! You can edit and add more projects later.</p>
                                             <div className="action-btn">
-                                                <Link to={'/organizations/wizard/111111'} className="btn btn-success pull-right">Continue</Link>
+                                                <Link to={'/organizations/111111/plans'} className="btn btn-success pull-right">Continue</Link>
                                             </div>
                                         </div>
                                     </div>
