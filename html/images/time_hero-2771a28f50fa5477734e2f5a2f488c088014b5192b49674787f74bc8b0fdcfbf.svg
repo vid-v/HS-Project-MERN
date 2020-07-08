@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="133px" height="146px" viewBox="0 0 133 146" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.2 (81672) - https://sketch.com -->
+    <title>Time hero</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M67,112 C47.117749,112 31,95.882251 31,76 C31,56.117749 47.117749,40 67,40 C86.882251,40 103,56.117749 103,76 C103,95.882251 86.882251,112 67,112 Z M67,107 C84.1208272,107 98,93.1208272 98,76 C98,58.8791728 84.1208272,45 67,45 C49.8791728,45 36,58.8791728 36,76 C36,93.1208272 49.8791728,107 67,107 Z" id="path-1"></path>
+        <filter x="-9.7%" y="-6.9%" width="119.4%" height="119.4%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.258413462 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M73.2291115,73.1283681 C72.2891741,73.1283681 71.2561458,73.1283681 70.1300265,73.1283681 L70.1300265,59.3361741 C70.1300265,56.6596886 69.9103672,56 67.1160968,56 L67.0139297,56 C64.2196593,56 64,56.6596886 64,59.3361741 L64,74.1559037 C64,76.8323892 66.2630014,79 69.0572718,79 L84.441163,79 C87.2354333,79 88,78.7895999 88,76.1131143 L88,76.0152538 C88,73.3387683 87.2354333,73.1283681 84.441163,73.1283681 L73.2291115,73.1283681 Z" id="path-3"></path>
+        <filter x="-29.2%" y="-21.7%" width="158.3%" height="160.9%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.258413462 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Achievement-badges" transform="translate(-1214.000000, -201.000000)">
+            <g id="Time-hero" transform="translate(1214.000000, 198.000000)">
+                <path d="M9.87572191,33.1240786 L56.2123288,5.92554153 C62.4476094,2.26557329 70.1727778,2.25581633 76.4172836,5.90002247 L123.080677,33.1321251 C129.223193,36.7168113 133,43.293808 133,50.4058033 L133,102.329267 C133,109.465828 129.197275,116.061667 123.021207,119.637514 L77.0534938,146.252108 C70.9049339,149.812029 63.3293198,149.842805 57.1520388,146.332958 L10.1197518,119.609853 C3.86433837,116.055612 5.14910739e-15,109.415394 0,102.220756 L0,50.3722377 C1.33420951e-14,43.2782773 3.75783405,36.7151399 9.87572191,33.1240786 Z" id="Rectangle-Copy-3" fill="#2AA7FF"></path>
+                <g id="Combined-Shape" fill-rule="nonzero">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" xlink:href="#path-1"></use>
+                </g>
+                <g id="icon" fill-rule="nonzero">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                    <use fill="#FFFFFF" xlink:href="#path-3"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

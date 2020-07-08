@@ -6,7 +6,7 @@ const cors = require('cors');
 const mongoose = require('mongoose');
 const config = require('./DB.js');
 const registrationRoutes = require('./route');
-
+const organizationsRoutes = require('./apis/organizations')
 mongoose.Promise = global.Promise;
 mongoose.connect(config.DB, { useNewUrlParser: true }).then(
     () => { console.log('Database is connected') },
@@ -18,6 +18,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 //app.use("./schema/User", registrationRoutes);
 app.use('/registration', registrationRoutes)
+app.use('/api/organizations', organizationsRoutes)
 
 
 module.exports = app

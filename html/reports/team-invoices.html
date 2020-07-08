@@ -1,0 +1,852 @@
+<!DOCTYPE html>
+<!--  This site was created in Webflow. http://www.webflow.com  -->
+<!--  Last Published: Fri Jul 03 2020 13:44:41 GMT+0000 (Coordinated Universal Time)  -->
+<html data-wf-page="5ef64e3b4d7d9de0929214e8" data-wf-site="5ef64e3b4d7d9d2fed9214c9">
+<head>
+  <meta charset="utf-8">
+  <title>Team Invoices</title>
+  <meta content="Team Invoices" property="og:title">
+  <meta content="Team Invoices" property="twitter:title">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <meta content="Webflow" name="generator">
+  <link href="../css/normalize.css" rel="stylesheet" type="text/css">
+  <link href="../css/webflow.css" rel="stylesheet" type="text/css">
+  <link href="../css/time-tracker-web-app-v2-06262020.webflow.css" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
+  <script type="text/javascript">WebFont.load({  google: {    families: ["Open Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic"]  }});</script>
+  <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
+  <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
+  <link href="../images/favicon.ico" rel="shortcut icon" type="image/x-icon">
+  <link href="../images/webclip.png" rel="apple-touch-icon">
+</head>
+<body>
+  <div>
+    <div class="app-main-div--vertical">
+      <div class="top-nav-container">
+        <div class="top-left-side">
+          <div data-w-id="394b5377-a5b1-8f94-9f10-213d7017d288" class="side-nav-shrinker-icon"><img src="../images/Hamburger.svg" alt=""></div>
+          <a href="../index.html" class="logo-block w-inline-block">
+            <div class="text-block-18">LOGO</div>
+          </a>
+          <div data-w-id="394b5377-a5b1-8f94-9f10-213d7017d28d" class="timer-div-block">
+            <div class="hubstaff-icon"></div>
+            <div class="div-block-442">
+              <div>0:00:00</div>
+            </div>
+            <div class="hubstaff-icon brand-color smaller"></div>
+            <div class="timer-contents-wrap">
+              <div class="div-block-443">
+                <div class="div-block-444">
+                  <div class="div-block-445">
+                    <div class="play-button">
+                      <div></div>
+                    </div>
+                    <div class="div-block-446">
+                      <div>-</div>
+                      <div class="p-style-5">No limit</div>
+                    </div>
+                  </div>
+                  <div class="div-block-447">
+                    <h4 class="h4-display-2 nomargin">0:00:00</h4>
+                    <div class="p-style-5">Today: 0:00:00</div>
+                  </div>
+                </div>
+                <div class="form-block-5 w-form">
+                  <form id="email-form" name="email-form" data-name="Email Form">
+                    <div class="form-row"><label class="label-style-1">PROJECT</label><select id="field-3" name="field-3" class="form-select w-select"><option value="">Select a project</option><option value="First">First Choice</option><option value="Second">Second Choice</option><option value="Third">Third Choice</option></select></div>
+                    <div class="form-row"><label class="label-style-1">TO-DO</label><select id="field-3" name="field-3" class="form-select w-select"><option value="">Select a to-do</option><option value="First">First Choice</option><option value="Second">Second Choice</option><option value="Third">Third Choice</option></select></div>
+                  </form>
+                  <div class="w-form-done">
+                    <div>Thank you! Your submission has been received!</div>
+                  </div>
+                  <div class="w-form-fail">
+                    <div>Oops! Something went wrong while submitting the form.</div>
+                  </div>
+                </div>
+                <div class="div-block-448">
+                  <div data-w-id="394b5377-a5b1-8f94-9f10-213d7017d2b7" class="div-block-449">
+                    <div></div>
+                  </div>
+                </div>
+                <div class="div-block-452">
+                  <a href="#" class="link-block-10 materialicon w-inline-block">
+                    <div></div>
+                  </a>
+                  <a data-w-id="394b5377-a5b1-8f94-9f10-213d7017d2be" href="#" class="link-block-10 w-inline-block">
+                    <div></div>
+                  </a>
+                </div>
+              </div>
+              <div class="div-block-450">
+                <div class="p-style-5 text-white"><span class="hubstaff-icon"></span> To record screenshots, please <a href="../user/download.html" class="spanlink size-12">download</a> and use the desktop app.</div>
+                <div data-w-id="394b5377-a5b1-8f94-9f10-213d7017d2c9" class="div-block-451">
+                  <div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="top-right-side">
+          <div class="top-menu-icon-container">
+            <a data-w-id="394b5377-a5b1-8f94-9f10-213d7017d2ce" href="#" class="menu-icon w-inline-block">
+              <div></div>
+            </a>
+            <a data-w-id="394b5377-a5b1-8f94-9f10-213d7017d2d1" href="#" class="menu-icon w-inline-block">
+              <div></div>
+            </a>
+            <a data-w-id="394b5377-a5b1-8f94-9f10-213d7017d2d4" href="#" class="menu-icon w-inline-block">
+              <div></div>
+            </a>
+            <a data-w-id="394b5377-a5b1-8f94-9f10-213d7017d2d7" href="#" class="menu-icon w-inline-block">
+              <div></div>
+            </a>
+            <div class="notification-option">
+              <h5 class="h5-display-2">Notifications (0)</h5>
+              <div class="submenu-divider"></div>
+              <div class="div-block-371"><img src="../images/notifications_bell.svg" alt=""></div>
+              <div class="submenu-divider"></div>
+              <div class="div-block-372"><a href="../notifications.html" class="btn-link-style1 text-center">See all notifications</a></div>
+            </div>
+            <div class="hubstaff-options">
+              <a href="../index.html" class="hubstaff-links w-inline-block">
+                <div class="div-block-381"><img src="../images/hubstaff.svg" alt="" class="image-7"></div>
+                <div class="div-block-382">
+                  <p class="p-style-5 text-nomargin">Time tracking, screenshots and reporting</p>
+                </div>
+              </a>
+              <a href="#" class="hubstaff-links w-inline-block">
+                <div class="div-block-381"><img src="../images/hubstaff-tasks.svg" alt="" class="image-7"></div>
+                <div class="div-block-382">
+                  <p class="p-style-5 text-nomargin">Agile, visual project management</p>
+                </div>
+              </a>
+              <a href="#" class="hubstaff-links w-inline-block">
+                <div class="div-block-381"><img src="../images/hubstaff-talent.svg" alt="" class="image-7"></div>
+                <div class="div-block-382">
+                  <p class="p-style-5 text-nomargin">Find remote talent across the world</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div>
+            <div data-hover="" data-delay="0" class="w-dropdown">
+              <div class="dropdown-toggle w-dropdown-toggle">
+                <div class="div-block-360">
+                  <div>W</div>
+                </div>
+                <div class="w-icon-dropdown-toggle"></div>
+                <div><a href="../projects.html" class="link">WEBBM</a></div>
+              </div>
+              <nav class="dropdown-list w-dropdown-list">
+                <a href="#" class="div-block-366 w-inline-block">
+                  <div class="div-block-360">
+                    <div>W</div>
+                  </div>
+                  <div>WEBBM</div>
+                </a>
+                <div class="submenu-divider"></div>
+                <div class="div-block-367"><a href="../organizations.html" class="btn-link-style1">Organizations menu <span class="hubstaff-icon"></span></a></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+        <div class="reports-modal">
+          <div class="reports-modal-container">
+            <a data-w-id="394b5377-a5b1-8f94-9f10-213d7017d30f" href="#" class="reports-modal-close-button w-inline-block">
+              <div></div>
+            </a>
+            <div class="div-block-368">
+              <h3 class="h3-display-3 text-semibold">Help for Reports</h3>
+              <div class="p-style-3">This is where you can view time and activity levels across date ranges.</div>
+              <div class="submenu-divider"></div>
+              <h5 class="h5-display-2">Relevant Articles</h5>
+              <div class="div-block-369">
+                <a href="#" class="btn-outline-style1 mdal-buttn w-inline-block">
+                  <div><span class="hubstaff-icon"></span> Export Reports</div>
+                </a>
+                <a href="#" class="btn-outline-style1 mdal-buttn w-inline-block">
+                  <div><span class="hubstaff-icon"></span> How does manual time affect reports?</div>
+                </a>
+              </div>
+              <h5 class="h5-display-2">Video Walkthroughs</h5>
+              <div class="p-style-3">Reporting Intro</div>
+              <div class="video-div">
+                <div style="padding-top:56.17021276595745%" class="w-video w-embed"><iframe class="embedly-embed" src="https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2Fl3ShU1o7jkk%3Ffeature%3Doembed&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dl3ShU1o7jkk&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2Fl3ShU1o7jkk%2Fhqdefault.jpg&key=96f1f04c5f4143bcb0f2e68c87d65feb&type=text%2Fhtml&schema=youtube" scrolling="no" title="YouTube embed" frameborder="0" allow="autoplay; fullscreen" allowfullscreen="true"></iframe></div>
+              </div>
+              <div class="p-style-1">Have a question? <a href="#" class="spanlink">Email support</a></div>
+            </div>
+            <div class="div-block-370"><a data-w-id="394b5377-a5b1-8f94-9f10-213d7017d330" href="#" class="btn-style-3 outline-with-right-margin w-button">Close</a><a href="#" class="btn-style1 w-button">Visit this topic page in the Help Center</a></div>
+          </div>
+        </div>
+        <div class="whats-new-side-popover">
+          <div class="div-block-373">
+            <a data-w-id="fb8a1df3-d9df-8996-fe9d-500579775e69" href="#" class="whats-new-close-button w-inline-block">
+              <div></div>
+            </a>
+            <div class="div-block-374">
+              <h3 class="h3-display-3 text-semibold">What&#x27;s New</h3>
+              <div class="div-block-375">
+                <div class="div-block-376">
+                  <div class="div-block-377 violet">
+                    <div></div>
+                  </div>
+                  <div class="div-block-378">
+                    <div class="div-block-379">
+                      <h5 class="h5-display-2 text-nomargin">Group by to-dos in reports</h5>
+                      <div class="p-style-5">Fri, May 22, 2020</div>
+                    </div>
+                    <div class="div-block-380">
+                      <p class="p-style-3">Make your reports easier to scan by grouping to-dos together. It&#x27;s a new way to view the Time &amp; Activities report.</p><a href="#" class="btn-link-style2">Learn more</a></div>
+                  </div>
+                </div>
+                <div class="div-block-376">
+                  <div class="div-block-377 red">
+                    <div></div>
+                  </div>
+                  <div class="div-block-378">
+                    <div class="div-block-379">
+                      <h5 class="h5-display-2 text-nomargin">Reports delivered bi-weekly<br></h5>
+                      <div class="p-style-5">Thu, Apr 23, 2020</div>
+                    </div>
+                    <div class="div-block-380">
+                      <p class="p-style-3">In addition to daily, weekly, and monthly, you can now get your favorite reports sent to you bi-weekly.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="div-block-376">
+                  <div class="div-block-377 blue">
+                    <div></div>
+                  </div>
+                  <div class="div-block-378">
+                    <div class="div-block-379">
+                      <h5 class="h5-display-2 text-nomargin">New and improved timesheets<br></h5>
+                      <div class="p-style-5">Tue, Feb 11, 2020</div>
+                    </div>
+                    <div class="div-block-380">
+                      <p class="p-style-3">Timesheets are now on one page, with three views to toggle between: daily, weekly and calendar. We&#x27;ve also added a daily time bar, and made adding and editing time much easier. Enjoy!</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="div-block-376">
+                  <div class="div-block-377 violet">
+                    <div></div>
+                  </div>
+                  <div class="div-block-378">
+                    <div class="div-block-379">
+                      <h5 class="h5-display-2 text-nomargin">Mark to-dos as complete<br></h5>
+                      <div class="p-style-5">Thu, Sep 26, 2019</div>
+                    </div>
+                    <div class="div-block-380">
+                      <p class="p-style-3">You can now mark a to-do as completed right in your browser. Just go to the To-dos menu, and click the ‘Actions’ drop down.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main-body-container">
+        <div class="side-nav-container">
+          <div class="sidenav-top-menu-container">
+            <div class="side-menu-wrap">
+              <a href="../index.html" class="side-menu-text-contents w-inline-block">
+                <div class="icon-wrap">
+                  <div class="text-block-15"></div>
+                </div>
+                <div>Dashboard</div>
+              </a>
+              <a title="Dashboard" href="../index.html" class="side-menu-icon-only-menu w-inline-block">
+                <div class="icon-wrap">
+                  <div class="text-block-15"></div>
+                </div>
+              </a>
+            </div>
+            <div class="side-menu-wrap">
+              <a href="../activity.html" class="side-menu-text-contents w-inline-block">
+                <div class="icon-wrap">
+                  <div class="text-block-15"></div>
+                </div>
+                <div>Activity</div>
+              </a>
+              <a data-w-id="225efe45-e91b-7fb8-dc75-1c922fcf3c36" href="#" class="side-menu-arrow w-inline-block">
+                <div class="text-block-16"></div>
+              </a>
+              <a title="Activity" href="../activity.html" class="side-menu-icon-only-menu w-inline-block">
+                <div class="icon-wrap">
+                  <div class="text-block-15"></div>
+                </div>
+              </a>
+            </div>
+            <div class="activity-submenu">
+              <a href="../activity.html" class="submenu w-inline-block">
+                <div>Screenshots</div>
+              </a>
+              <a href="../activity/apps.html" class="submenu w-inline-block">
+                <div>Apps</div>
+              </a>
+              <a href="../activity/urls.html" class="submenu w-inline-block">
+                <div>URLs</div>
+              </a>
+            </div>
+            <div class="side-menu-wrap">
+              <a href="../map.html" class="side-menu-text-contents w-inline-block">
+                <div class="icon-wrap">
+                  <div class="text-block-15"></div>
+                </div>
+                <div>Map</div>
+              </a>
+              <a title="Map" href="../map.html" class="side-menu-icon-only-menu w-inline-block">
+                <div class="icon-wrap">
+                  <div class="text-block-15"></div>
+                </div>
+              </a>
+            </div>
+            <div class="side-menu-wrap">
+              <a href="../timesheet.html" class="side-menu-text-contents w-inline-block">
+                <div class="icon-wrap">
+                  <div class="text-block-15"></div>
+                </div>
+                <div>Timesheets</div>
+              </a>
+              <a data-w-id="225efe45-e91b-7fb8-dc75-1c922fcf3c59" href="#" class="side-menu-arrow w-inline-block">
+                <div class="text-block-16"></div>
+              </a>
+              <a title="Timesheets" href="../timesheet.html" class="side-menu-icon-only-menu w-inline-block">
+                <div class="icon-wrap">
+                  <div class="text-block-15"></div>
+                </div>
+              </a>
+            </div>
+            <div class="timesheets-submenu">
+              <a href="../timesheet.html" class="submenu w-inline-block">
+                <div>View &amp; edit</div>
+              </a>
+              <a href="../timesheet/approvals.html" class="submenu w-inline-block">
+                <div>Approvals</div>
+              </a>
+            </div>
+            <div class="side-menu-wrap">
+              <a href="../reports.html" class="side-menu-text-contents w-inline-block">
+                <div class="icon-wrap">
+                  <div class="text-block-15"></div>
+                </div>
+                <div>Reports</div>
+              </a>
+              <a data-w-id="225efe45-e91b-7fb8-dc75-1c922fcf3c6e" href="#" class="side-menu-arrow w-inline-block">
+                <div class="text-block-16"></div>
+              </a>
+              <a title="Reports" href="../reports.html" class="side-menu-icon-only-menu w-inline-block">
+                <div class="icon-wrap">
+                  <div class="text-block-15"></div>
+                </div>
+              </a>
+            </div>
+            <div class="reports-submenu">
+              <a href="../reports/time-and-activities.html" class="submenu w-inline-block">
+                <div>Time &amp; activity</div>
+              </a>
+              <a href="../reports/weekly.html" class="submenu w-inline-block">
+                <div>Weekly</div>
+              </a>
+              <a href="../reports/amounts-owed.html" class="submenu w-inline-block">
+                <div>Amounts owed</div>
+              </a>
+              <a href="../reports/payment.html" class="submenu w-inline-block">
+                <div>Payments</div>
+              </a>
+              <a href="../reports/apps-urls.html" class="submenu w-inline-block">
+                <div>Apps &amp; URLs</div>
+              </a>
+              <a href="../reports/manual-time-edits.html" class="submenu w-inline-block">
+                <div>Manual time edits</div>
+              </a>
+              <a href="../reports/timesheet-approvals.html" class="submenu w-inline-block">
+                <div>Timesheet approvals</div>
+              </a>
+              <a href="../reports/expenses.html" class="submenu w-inline-block">
+                <div>Expenses</div>
+              </a>
+              <a href="../reports/weekly-limits.html" class="submenu w-inline-block">
+                <div>Weekly limits</div>
+              </a>
+              <a href="../reports/daily-limits.html" class="submenu w-inline-block">
+                <div>Daily limits</div>
+              </a>
+              <a href="../reports/project-budgets.html" class="submenu w-inline-block">
+                <div>Project budgets</div>
+              </a>
+              <a href="../reports/time-off-balances.html" class="submenu w-inline-block">
+                <div>Time off balances</div>
+              </a>
+              <a href="../reports/time-off-transactions.html" class="submenu w-inline-block">
+                <div>Time off transactions</div>
+              </a>
+              <a href="../reports/client-invoices.html" class="submenu w-inline-block">
+                <div>Client invoices</div>
+              </a>
+              <a href="../reports/team-invoices.html" aria-current="page" class="submenu w-inline-block w--current">
+                <div>Team invoices</div>
+              </a>
+              <a href="../reports/client-invoices-aging.html" class="submenu w-inline-block">
+                <div>Client invoices aging</div>
+              </a>
+              <a href="../reports/team-invoices-aging.html" class="submenu w-inline-block">
+                <div>Team invoices aging</div>
+              </a>
+              <a href="../reports/attendance.html" class="submenu w-inline-block">
+                <div>Attendance</div>
+              </a>
+              <a href="../reports/job-sites.html" class="submenu w-inline-block">
+                <div>Visits</div>
+              </a>
+              <a href="../reports.html" class="submenu w-inline-block">
+                <div>All reports</div>
+              </a>
+            </div>
+            <div class="side-menu-wrap">
+              <a href="../to-dos.html" class="side-menu-text-contents w-inline-block">
+                <div class="icon-wrap">
+                  <div class="text-block-15"></div>
+                </div>
+                <div>To-dos</div>
+              </a>
+              <a title="To-dos" href="../to-dos.html" class="side-menu-icon-only-menu w-inline-block">
+                <div class="icon-wrap">
+                  <div class="text-block-15"></div>
+                </div>
+              </a>
+            </div>
+            <div class="side-menu-wrap">
+              <a href="../invoices.html" class="side-menu-text-contents w-inline-block">
+                <div class="icon-wrap">
+                  <div class="text-block-15"></div>
+                </div>
+                <div>Invoices</div>
+              </a>
+              <a title="Invoices" href="../invoices.html" class="side-menu-icon-only-menu w-inline-block">
+                <div class="icon-wrap">
+                  <div class="text-block-15"></div>
+                </div>
+              </a>
+            </div>
+            <div class="side-menu-wrap">
+              <a href="../schedules.html" class="side-menu-text-contents w-inline-block">
+                <div class="icon-wrap">
+                  <div class="text-block-15"></div>
+                </div>
+                <div>Schedules</div>
+              </a>
+              <a title="Schedules" href="../schedules.html" class="side-menu-icon-only-menu w-inline-block">
+                <div class="icon-wrap">
+                  <div class="text-block-15"></div>
+                </div>
+              </a>
+            </div>
+            <div class="side-menu-wrap">
+              <a href="../time-off.html" class="side-menu-text-contents w-inline-block">
+                <div class="icon-wrap">
+                  <div class="text-block-15"></div>
+                </div>
+                <div>Time off</div>
+              </a>
+              <a title="Time off" href="../time-off.html" class="side-menu-icon-only-menu w-inline-block">
+                <div class="icon-wrap">
+                  <div class="text-block-15"></div>
+                </div>
+              </a>
+            </div>
+            <div class="side-menu-wrap">
+              <a href="../expenses.html" class="side-menu-text-contents w-inline-block">
+                <div class="icon-wrap">
+                  <div class="text-block-15"></div>
+                </div>
+                <div>Expenses <span class="text-span">BETA</span></div>
+              </a>
+              <a title="Expenses" href="../expenses.html" class="side-menu-icon-only-menu w-inline-block">
+                <div class="icon-wrap">
+                  <div class="text-block-15"></div>
+                </div>
+              </a>
+            </div>
+            <div class="div-block-361">
+              <div class="label-default">
+                <div class="h6-display-1-2 opacity-50">ADMIN</div>
+              </div>
+              <div class="label-shrink">
+                <div class="h6-display-1-2 opacity-50">ADMIN</div>
+              </div>
+            </div>
+            <div class="side-menu-wrap">
+              <a href="../projects.html" class="side-menu-text-contents w-inline-block">
+                <div class="icon-wrap">
+                  <div class="text-block-15"></div>
+                </div>
+                <div>Projects</div>
+              </a>
+              <a title="Projects" href="../projects.html" class="side-menu-icon-only-menu w-inline-block">
+                <div class="icon-wrap">
+                  <div class="text-block-15"></div>
+                </div>
+              </a>
+            </div>
+            <div class="side-menu-wrap">
+              <a href="../members.html" class="side-menu-text-contents w-inline-block">
+                <div class="icon-wrap">
+                  <div class="text-block-15"></div>
+                </div>
+                <div>Members</div>
+              </a>
+              <a title="Members" href="../members.html" class="side-menu-icon-only-menu w-inline-block">
+                <div class="icon-wrap">
+                  <div class="text-block-15"></div>
+                </div>
+              </a>
+            </div>
+            <div class="side-menu-wrap">
+              <a href="../teams.html" class="side-menu-text-contents w-inline-block">
+                <div class="icon-wrap">
+                  <div class="text-block-15"></div>
+                </div>
+                <div>Teams</div>
+              </a>
+              <a title="Teams" href="../teams.html" class="side-menu-icon-only-menu w-inline-block">
+                <div class="icon-wrap">
+                  <div class="text-block-15"></div>
+                </div>
+              </a>
+            </div>
+            <div class="side-menu-wrap">
+              <a href="../job-sites-beta.html" class="side-menu-text-contents w-inline-block">
+                <div class="icon-wrap">
+                  <div class="text-block-15"></div>
+                </div>
+                <div>Job sites <span class="text-span">BETA</span></div>
+              </a>
+              <a title="Job sites" href="../job-sites-beta.html" class="side-menu-icon-only-menu w-inline-block">
+                <div class="icon-wrap">
+                  <div class="text-block-15"></div>
+                </div>
+              </a>
+            </div>
+            <div class="side-menu-wrap">
+              <a href="../clients.html" class="side-menu-text-contents w-inline-block">
+                <div class="icon-wrap">
+                  <div class="text-block-15"></div>
+                </div>
+                <div>Clients</div>
+              </a>
+              <a title="Clients" href="../clients.html" class="side-menu-icon-only-menu w-inline-block">
+                <div class="icon-wrap">
+                  <div class="text-block-15"></div>
+                </div>
+              </a>
+            </div>
+            <div class="side-menu-wrap">
+              <a href="../integrations.html" class="side-menu-text-contents w-inline-block">
+                <div class="icon-wrap">
+                  <div class="text-block-15"></div>
+                </div>
+                <div>Integrations</div>
+              </a>
+              <a title="Integrations" href="../integrations.html" class="side-menu-icon-only-menu w-inline-block">
+                <div class="icon-wrap">
+                  <div class="text-block-15"></div>
+                </div>
+              </a>
+            </div>
+            <div class="side-menu-wrap">
+              <a href="../payments-3.html" class="side-menu-text-contents w-inline-block">
+                <div class="icon-wrap">
+                  <div class="text-block-15"></div>
+                </div>
+                <div>Payments</div>
+              </a>
+              <a data-w-id="225efe45-e91b-7fb8-dc75-1c922fcf3d3d" href="#" class="side-menu-arrow w-inline-block">
+                <div class="text-block-16"></div>
+              </a>
+              <a title="Payments" href="../payments-3.html" class="side-menu-icon-only-menu w-inline-block">
+                <div class="icon-wrap">
+                  <div class="text-block-15"></div>
+                </div>
+              </a>
+            </div>
+            <div class="payments-submenu">
+              <a href="../payments-3.html" class="submenu w-inline-block">
+                <div>Send</div>
+              </a>
+              <a href="../payments-2/payroll.html" class="submenu w-inline-block">
+                <div>Payroll</div>
+              </a>
+              <a href="../payments-2/past-payments.html" class="submenu w-inline-block">
+                <div>Past</div>
+              </a>
+            </div>
+            <div class="side-menu-wrap">
+              <a href="../settings.html" class="side-menu-text-contents w-inline-block">
+                <div class="icon-wrap">
+                  <div class="text-block-15"></div>
+                </div>
+                <div>Settings</div>
+              </a>
+              <a data-w-id="225efe45-e91b-7fb8-dc75-1c922fcf3d55" href="#" class="side-menu-arrow w-inline-block">
+                <div class="text-block-16"></div>
+              </a>
+              <a title="Settings" href="../settings.html" class="side-menu-icon-only-menu w-inline-block">
+                <div class="icon-wrap">
+                  <div class="text-block-15"></div>
+                </div>
+              </a>
+            </div>
+            <div class="settings-submenu">
+              <a href="../settings-2/general.html" class="submenu w-inline-block">
+                <div>General</div>
+              </a>
+              <a href="../settings-2/features.html" class="submenu w-inline-block">
+                <div>Features</div>
+              </a>
+              <a href="../settings-2/billing.html" class="submenu w-inline-block">
+                <div>Billing</div>
+              </a>
+            </div>
+            <div class="side-menu-wrap">
+              <a href="../more-features.html" class="side-menu-text-contents w-inline-block">
+                <div class="icon-wrap">
+                  <div class="text-block-15"></div>
+                </div>
+                <div>More Features</div>
+              </a>
+              <a title="More Features" href="../more-features.html" class="side-menu-icon-only-menu w-inline-block">
+                <div class="icon-wrap">
+                  <div class="text-block-15"></div>
+                </div>
+              </a>
+            </div>
+            <div class="side-menu-wrap invite">
+              <a data-w-id="225efe45-e91b-7fb8-dc75-1c922fcf3d72" href="#" class="side-menu-text-contents w-inline-block">
+                <div class="icon-wrap invite">
+                  <div class="text-block-15"></div>
+                </div>
+                <div>Invite members</div>
+              </a>
+              <a title="Teams" data-w-id="225efe45-e91b-7fb8-dc75-1c922fcf3d78" href="#" class="side-menu-icon-only-menu w-inline-block">
+                <div class="icon-wrap invite">
+                  <div class="text-block-15"></div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="sidenav-bottom-container">
+            <div data-w-id="225efe45-e91b-7fb8-dc75-1c922fcf3d7d" class="div-block-362">
+              <div class="div-block-363">
+                <div class="div-block-364"><img src="../images/default_speck-ab4a84406b7db77dc05ecef182d9a5879abff96e6bdaf7fd12713d5c2a06b36c_1default_speck-ab4a84406b7db77dc05ecef182d9a5879abff96e6bdaf7fd12713d5c2a06b36c.png" alt=""></div>
+                <div class="username">
+                  <div class="p-style-3 text-violet">John Smith</div>
+                </div>
+              </div>
+              <div class="div-block-365">
+                <div></div>
+              </div>
+            </div>
+            <div class="bottom-sidenav-option">
+              <a href="#" class="side-submenu-link-option w-inline-block">
+                <div>My Accounts</div>
+              </a>
+              <a href="../user/user-setting-billing.html" class="side-submenu-link-option w-inline-block">
+                <div>User settings &amp; billing</div>
+              </a>
+              <div class="submenu-divider"></div>
+              <a href="#" class="side-submenu-link-option w-inline-block">
+                <div>Payment accounts</div>
+              </a>
+              <a href="#" class="side-submenu-link-option w-inline-block">
+                <div>Integrations</div>
+              </a>
+              <div class="submenu-divider"></div>
+              <a href="#" class="side-submenu-link-option w-inline-block">
+                <div>Support</div>
+              </a>
+              <a href="../user/download.html" class="side-submenu-link-option w-inline-block">
+                <div>Download</div>
+              </a>
+              <a href="#" class="side-submenu-link-option w-inline-block">
+                <div>Developer AI</div>
+              </a>
+              <div class="submenu-divider"></div>
+              <a href="#" class="side-submenu-link-option w-inline-block">
+                <div>Sign Out</div>
+              </a>
+            </div>
+          </div>
+          <div class="invite-members-modal">
+            <div class="modal">
+              <div class="modal-style-1">
+                <div class="modal-content">
+                  <div class="modal-header-2">
+                    <h3 class="h3-display-1 font-weight-medium">Invite Member</h3>
+                    <div data-w-id="bf39c1fe-fd9b-bc92-a0bd-79a0e7d8d934" class="close-2"></div>
+                  </div>
+                  <div class="modal-body-2">
+                    <div class="w-form">
+                      <form id="email-form-6" name="email-form-6" data-name="Email Form 6">
+                        <div>
+                          <div class="form-row">
+                            <div class="div-block-536">
+                              <h5 class="h6-display-1 no-margin">EMAIL*</h5><a href="#" class="btn-link-style1 no-rightmargin">Copy Invite Link</a></div>
+                            <div class="form-input-style-1"><textarea placeholder="Enter email addresses separated by new lines." maxlength="5000" id="field-4" name="field-4" class="form-control-2 w-input"></textarea></div>
+                          </div>
+                          <div>
+                            <div><label class="w-checkbox checkbox-field-3"><input type="checkbox" id="checkbox" name="checkbox" data-name="Checkbox" class="w-checkbox-input"><span class="checkbox-label-4 w-form-label">Invite to </span><div class="div-block-537"><img src="../images/hubstaff-tasks.svg" alt=""></div></label></div>
+                          </div>
+                          <div class="form-row margin-bottom">
+                            <div class="div-block-536">
+                              <h5 class="h6-display-1 no-margin">ROLE*</h5><a href="#" class="btn-link-style1 no-rightmargin">Learn more</a></div>
+                            <div data-hover="" data-delay="0" class="dropdown-style1 stretch w-dropdown">
+                              <div class="dropdown-toggle-2 stretch w-dropdown-toggle">
+                                <div class="w-icon-dropdown-toggle"></div>
+                                <div>User</div>
+                              </div>
+                              <nav class="dropdown-list-4 w-dropdown-list">
+                                <div class="multiline-menu">
+                                  <div>Organization Manager</div>
+                                  <div class="text-block-30">Can do everything, except view and manage financials</div>
+                                </div>
+                                <div class="multiline-menu">
+                                  <div>Project manager</div>
+                                  <div class="text-block-30">Can manage, track, and view reports for any projects they&#x27;re added to</div>
+                                </div>
+                                <div class="multiline-menu highlight-link">
+                                  <div>User</div>
+                                  <div class="text-block-30">Can track and view their time for any project they&#x27;re added to</div>
+                                </div>
+                                <div class="multiline-menu">
+                                  <div>Project viewer</div>
+                                  <div class="text-block-30">Can view reports for any project they&#x27;re added to (viewers are free)</div>
+                                </div>
+                              </nav>
+                            </div>
+                          </div>
+                          <div class="form-row margin-bottom">
+                            <div class="div-block-536">
+                              <h5 class="h6-display-1 no-margin">PROJECTS</h5><a href="#" class="btn-link-style1 no-rightmargin">Select all</a></div>
+                            <div data-hover="" data-delay="0" class="dropdown-style1 stretch w-dropdown">
+                              <div class="dropdown-toggle-2 stretch w-dropdown-toggle">
+                                <div>Select projects you want to add team members to</div>
+                              </div>
+                              <nav class="dropdown-list-4 w-dropdown-list">
+                                <div class="div-block-539">
+                                  <div class="form-input-style-1"><input type="text" class="form-control w-input" maxlength="256" name="Default-Size-4" data-name="Default Size 4" id="Default-Size-4" required=""></div>
+                                </div>
+                                <div class="div-block-459 left-padding-20">
+                                  <div class="p-style-5">Projects</div>
+                                </div><a href="#" class="dropdown-link-2 w-dropdown-link">Customer Service</a><a href="#" class="dropdown-link-2 w-dropdown-link">Graphic Design</a></nav>
+                            </div>
+                          </div>
+                        </div>
+                      </form>
+                      <div class="w-form-done">
+                        <div>Thank you! Your submission has been received!</div>
+                      </div>
+                      <div class="w-form-fail">
+                        <div>Oops! Something went wrong while submitting the form.</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="modal-footer"><a href="#" class="btn-style1 right-margin-10px w-button">Send</a><a data-w-id="bf39c1fe-fd9b-bc92-a0bd-79a0e7d8d95d" href="#" class="btn-style1 bg-white w-button">Cancel</a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="main-body-content-container flex">
+          <div class="review-dib-block">
+            <div class="div-block-383">
+              <div class="div-block-384">
+                <div class="div-block-385"><img src="../images/HS_logo.svg" alt=""></div>
+                <div class="div-block-386">
+                  <div></div>
+                </div>
+              </div>
+              <div class="div-block-387">
+                <h4 class="h4-display-1 text-nomargin">Are you enjoying Hubstaff?</h4>
+                <div class="p-style-3">Share the love by leaving a review. It only takes 1 minute.</div>
+              </div>
+            </div>
+            <div class="div-block-388"><a href="#" class="btn-style1 right-margin-10px w-button">Leave a Review</a><a data-w-id="67792c34-5ea1-cccf-f706-ab309d9577ab" href="#" class="btn-style-3 rightmargin-10px w-button">Maybe Later</a><a data-w-id="67792c34-5ea1-cccf-f706-ab309d9577ad" href="#" class="btn-link-style2">Don&#x27;t ask me again</a></div>
+          </div>
+          <div class="div-block-469">
+            <div class="heading-div">
+              <h2 class="h2-display-2">Team invoices report</h2>
+            </div>
+            <div class="content-gray-card">
+              <div>
+                <p class="p-style-3 margin-bot-0">Team invoices is a premium feature. Upgrade to try it out today.</p>
+              </div>
+              <div class="div-block-463">
+                <p class="p-style-5 margin-bot-0">Ask the account owner to upgrade</p>
+              </div>
+            </div>
+            <div class="div-block-464">
+              <div class="content-image _21"><img src="https://uploads-ssl.webflow.com/5ee24d62da998018955cac86/5ee7ec11a965dd303a33c9db_invoices-welcome-mat%403x-41cc1a352743f3031a967e489607969d9aa1ead1e885675c3bfee2b930128b24.png" alt=""></div><a href="../reports/team-invoices-admin.html" class="btn-style1 w-button">Got it!</a></div>
+          </div>
+        </div>
+      </div>
+      <div class="hubstaff-support-popup">
+        <div class="support-window">
+          <div class="support-window-header">
+            <h4 class="h5-display-1 font-weight-semibold white">Hubstaff Support</h4>
+            <div data-w-id="8c1024bb-18f9-7cbb-76f8-b4fd087c6951" class="close-2 white"></div>
+          </div>
+          <div class="support-window-content">
+            <div class="form-block-9 w-form">
+              <form id="email-form-7" name="email-form-7" data-name="Email Form 7" class="form-7">
+                <div class="div-block-527">
+                  <div class="form-row"><label class="label-style-1"><strong>Name</strong></label>
+                    <div class="form-input-style-1-2"><input type="text" class="form-control-3 w-input" maxlength="256" name="Default-Size-3" data-name="Default Size 3" placeholder="FirstName LastName" id="Default-Size-3"></div>
+                  </div>
+                  <div class="form-row"><label class="label-style-1"><strong>Email</strong></label>
+                    <div class="form-input-style-1-2"><input type="text" class="form-control-3 w-input" maxlength="256" name="Default-Size-2" data-name="Default Size 2" placeholder="yourname@email.com" id="Default-Size-2"></div>
+                  </div>
+                  <div class="form-row"><label class="label-style-1"><strong>How can we help you?</strong></label>
+                    <div class="text-area-style-1 hubstaff-support"><textarea data-name="text area style-1" maxlength="5000" id="text-area-style" name="text-area-style-1" class="form-control-textarea style-1 w-input"></textarea></div>
+                  </div>
+                  <div class="form-row"><label class="label-style-1"><strong>Attachments</strong></label>
+                    <div class="attachment-div">
+                      <h4 class="h6-display-1 font-weight-normal font-gray"><span class="material-icon-font attach"></span> Add up to 5 files</h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="hubstaff-support-footer"><a data-w-id="8c1024bb-18f9-7cbb-76f8-b4fd087c6973" href="#" class="btn-style1 w-button">Send</a></div>
+              </form>
+              <div class="w-form-done">
+                <div>Thank you! Your submission has been received!</div>
+              </div>
+              <div class="w-form-fail">
+                <div>Oops! Something went wrong while submitting the form.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="support-window-message-sent">
+          <div class="support-window-header">
+            <h4 class="h5-display-1 font-weight-semibold white">Message sent</h4>
+            <div data-w-id="8c1024bb-18f9-7cbb-76f8-b4fd087c697f" class="close-2 white"></div>
+          </div>
+          <div class="support-window-content">
+            <div class="div-block-464">
+              <div class="div-block-526"><img src="https://uploads-ssl.webflow.com/5ee24d62da998018955cac86/5eebc125fc7941ffcb376b86_message%20sent-01.svg" alt=""></div>
+              <h4 class="h5-display-1 font-weight-semibold">Thanks for reaching out</h4>
+              <div>Someone will get back to you soon</div>
+              <div class="div-block-150"><a data-w-id="8c1024bb-18f9-7cbb-76f8-b4fd087c698a" href="#" class="btn-link-style1">Go Back</a></div>
+            </div>
+          </div>
+        </div>
+        <div data-w-id="8c1024bb-18f9-7cbb-76f8-b4fd087c698c" class="support-pop-up-button"><img src="https://uploads-ssl.webflow.com/5ee24d62da998018955cac86/5eebc7968593ff76160b341b_question.svg" alt="" class="support-icon"></div>
+      </div>
+    </div>
+  </div>
+  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.4.1.min.220afd743d.js?site=5ef64e3b4d7d9d2fed9214c9" type="text/javascript" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="../js/webflow.js" type="text/javascript"></script>
+  <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
+</body>
+</html>
